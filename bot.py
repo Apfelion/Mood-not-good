@@ -7,7 +7,7 @@ TOKEN = "8107962560:AAFH71DYefKsK6_bwnd-drxSLzQ7WDSh1OM"
 
 async def start(update: Update, context: CallbackContext) -> None:
     """Send a welcome message when the /start command is used."""
-    await update.message.reply_text("Hello! I'm your Mood Booster Bot 😊. Type /boostme to get a motivation boost!")
+    await update.message.reply_text("And here we go, isn`t it? I'm mister Mood Booster Bot😊. Type /boostme if you dare to get a motivation boost!")
 
 async def boostme(update: Update, context: CallbackContext) -> None:
     """Send a motivational message when the /boostme command is used."""
